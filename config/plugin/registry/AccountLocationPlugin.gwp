@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<plugin
+  name="AccountLocationPlugin">
+  <plugin-gosu
+    disabled="false"
+    gosuclass="gw.plugin.location.impl.AccountLocationPluginImpl"/>
+</plugin>

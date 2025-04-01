@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<typelist xmlns="http://guidewire.com/typelists" name="Arm_InsuranceCar_Model" desc="Mercedes-Benz and Model Number">
+  <typecode
+    code="A-Class"
+    name="1997-Present">
+    <category
+      code="A-Class"
+      typelist="Arm_Insurance_Carname"/>
+  </typecode>
+  <typecode
+    code="B-Class"
+    desc="Car manufactured model number"
+    name="2005-Present">
+    <category
+      code="B-Class"
+      typelist="Arm_Insurance_Carname"/>
+  </typecode>
+  <typecode
+    code="C-Class"
+    desc="Car manufactured model number"
+    name="1993-Present">
+    <category
+      code="C-Class"
+      typelist="Arm_InsuranceCar_Model"/>
+  </typecode>
+  <typecode
+    code="S-Class"
+    desc="Car manufactured model number"
+    name="1972-Present">
+    <category
+      code="S-Class"
+      typelist="Arm_Insurance_Carname"/>
+  </typecode>
+  <typecode
+    code="G-Class"
+    desc="Car manufactured model number"
+    name="1979-Present">
+    <category
+      code="G-Class"
+      typelist="Arm_Insurance_Carname"/>
+  </typecode>
+  <typecode
+    code="MayBachGLS"
+    desc="Car Manufactured and Model Number"
+    name="2006-Present">
+    <category
+      code="MayBachGLS"
+      typelist="Arm_InsuranceCar_Model"/>
+  </typecode>
+</typelist>

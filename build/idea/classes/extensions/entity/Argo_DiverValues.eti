@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<entity
+  desc="ArgoDiverValues"
+  effDatedBranchType="PolicyPeriod"
+  xmlns="http://guidewire.com/datamodel"
+  entity="Argo_DiverValues"
+  table="argo_divervalues"
+  type="effdated"
+  extendable="false">
+  <column
+    name="DriverStartDate"
+    nullok="true"
+    type="dateonly"/>
+  <column
+    desc="DriverScorevalue"
+    name="DriverScoreValue"
+    nullok="true"
+    type="datetime"/>
+  <column
+    name="DriverCellPhone"
+    nullok="true"
+    type="varchar">
+    <columnParam
+      name="size"
+      value="20"/>
+  </column>
+  <column
+    name="DriverOverride_T"
+    nullok="true"
+    type="bit"/>
+  <column
+    desc="DriverUsedCarMileage"
+    name="UsedCarMileage"
+    nullok="true"
+    type="integer"/>
+</entity>

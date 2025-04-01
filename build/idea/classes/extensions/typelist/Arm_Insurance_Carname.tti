@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<typelist xmlns="http://guidewire.com/typelists" name="Arm_Insurance_Carname" desc="Insurance Car Names">
+  <typecode
+    code="A-Class"
+    desc="Mercedes-Benz and Making year"
+    name="Mercedes-Benz-A-Class"
+    priority="4"/>
+  <typecode
+    code="B-Class"
+    desc="Mercedes-Benz and Making year"
+    name="Mercedes-Benz-B-Class"
+    priority="1"/>
+  <typecode
+    code="C-Class"
+    desc="Mercedes-Benz and Making year"
+    name="MercedesBenz-C-Class"
+    priority="2"/>
+  <typecode
+    code="S-Class"
+    desc="Mercedes-Benz and Making year"
+    name="Mercedes-Benz-S-Class"
+    priority="3"/>
+  <typecode
+    code="G-Class"
+    desc="Mercedes-Benz and Making year"
+    name="Mercedes-Benz-G-Class"
+    priority="0"/>
+  <typecode
+    code="MayBachGLS"
+    desc="Mercedes-Benz and Making year"
+    name="MercedesBenz-MayBachGLS"/>
+  <typefilter
+    includeAll="true"
+    name="MaybachEQS"
+    desc="ElectricCar">
+    <include
+      code="MayBachGLS"/>
+    <include
+      code="G-Class"/>
+  </typefilter>
+</typelist>

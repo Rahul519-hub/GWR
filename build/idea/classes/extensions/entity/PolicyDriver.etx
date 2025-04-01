@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<extension
+  xmlns="http://guidewire.com/datamodel"
+  entityName="PolicyDriver">
+  <foreignkey
+    fkentity="Argo_DiverValues"
+    name="Argo_DiverValues"
+    nullok="true"/>
+  <column
+    name="DriverInformation"
+    nullok="true"
+    type="bit"/>
+</extension>

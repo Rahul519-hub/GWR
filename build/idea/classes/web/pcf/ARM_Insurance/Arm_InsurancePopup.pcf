@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <Popup
+    canEdit="true "
+    id="Arm_InsurancePopup"
+    startInEditMode="true "
+    title="&quot;Arm_Insu&quot;">
+    <LocationEntryPoint
+      signature="Arm_InsurancePopup(Arm_Insurance:Arm_Insurance)"/>
+    <Variable
+      name="Arm_Insurance"
+      type="Arm_Insurance"/>
+    <Screen>
+      <Toolbar>
+        <EditButtons/>
+      </Toolbar>
+      <DetailViewPanel>
+        <InputColumn>
+          <TextInput
+            editable="true "
+            id="FirstName"
+            label="DisplayKey.get(&quot;FirstName&quot;)"
+            value="Arm_Insurance.FirstName"/>
+        </InputColumn>
+      </DetailViewPanel>
+    </Screen>
+  </Popup>
+</PCF>

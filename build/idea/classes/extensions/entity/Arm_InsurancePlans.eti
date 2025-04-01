@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  entity="Arm_InsurancePlans"
+  table="arm_insuranceplans"
+  type="retireable">
+  <column
+    desc="Its a regular plans no additional coverages"
+    name="RegularPlan"
+    nullok="true"
+    type="text"/>
+  <column
+    desc="Its a very limited coverages when compare to regular"
+    name="ExecutivePlan"
+    nullok="true"
+    type="text"/>
+  <column
+    desc="it offers all basic coverages with limited  funcationality"
+    name="SilverPlan"
+    nullok="true"
+    type="mediumtext"/>
+  <column
+    desc="it offers user to get 20% discount by subscribing package  "
+    name="GoldPlan"
+    nullok="true"
+    type="varchar">
+    <columnParam
+      name="size"
+      value="50"/>
+  </column>
+  <column
+    desc="its offers users addtional coverage and 10% Discount on Annual Package"
+    name="DiamondPlan"
+    nullok="true"
+    type="longtext"/>
+  <column
+    desc="It Offers Multiple Coverages And 25% Discount for Old Customers "
+    name="PlatinumPlan"
+    nullok="true"
+    type="text"/>
+  <column
+    name="UserAddress"
+    nullok="true"
+    type="text"/>
+  <column
+    name="CarVinNumber"
+    nullok="true"
+    type="text"/>
+  <column
+    name="Carpurchasedate"
+    nullok="true"
+    type="text"/>
+  <foreignkey
+    fkentity="Arm_Insurance"
+    name="Arm_Insurance"
+    nullok="true"/>
+</entity>

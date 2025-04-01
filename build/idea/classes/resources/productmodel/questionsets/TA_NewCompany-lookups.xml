@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<import>
+  <QuestionSetLookup public-id="zk5jeeal79vjl6b3omfrdnocqj8">
+    <Availability>Available</Availability>
+    <EndEffectiveDate/>
+    <IndustryCode/>
+    <JobType/>
+    <PolicyLinePatternCode/>
+    <QuestionSetCode>zbjiili5r03bgf7r3nu3vifu338</QuestionSetCode>
+    <StartEffectiveDate>2025-03-29 00:00:00.000</StartEffectiveDate>
+    <State/>
+  </QuestionSetLookup>
+  <QuestionLookup public-id="zlahkvqunrtmn5bh9dp3mlcd43a">
+    <Availability>Available</Availability>
+    <EndEffectiveDate/>
+    <JobType/>
+    <QuestionCode>ze4j4og1vqtd3d8ba4mqqfi22g8</QuestionCode>
+    <StartEffectiveDate>2025-03-29 00:00:00.000</StartEffectiveDate>
+    <State/>
+  </QuestionLookup>
+  <QuestionLookup public-id="zith4vqsc2hp0dcjft94c3kpp09">
+    <Availability>Available</Availability>
+    <EndEffectiveDate/>
+    <JobType/>
+    <QuestionCode>z2sh464pn4jug02dv9id472esmb</QuestionCode>
+    <StartEffectiveDate>2025-03-29 00:00:00.000</StartEffectiveDate>
+    <State/>
+  </QuestionLookup>
+</import>

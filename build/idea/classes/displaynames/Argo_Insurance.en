@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Entity
+  name="Argo_Insurance">
+  <Columns>
+    <Column
+      beanPath="Argo_Insurance.Firstname"
+      name="Fname"/>
+    <Column
+      beanPath="Argo_Insurance.LastName"
+      name="Lname"/>
+    <Column
+      beanPath="Argo_Insurance.Gender"
+      name="Gender"/>
+  </Columns>
+  <DisplayName>if (Gender == GenderType.TC_M){
+  return "Mr" + Fname+" " +Lname
+}
+else if(Gender == GenderType.TC_F){
+  return "Miss" + Fname+" " +Lname
+}else{
+  return Fname+" " +Lname
+}</DisplayName>
+</Entity>

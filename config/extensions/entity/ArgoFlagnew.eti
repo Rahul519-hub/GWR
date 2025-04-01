@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<subtype
+  xmlns="http://guidewire.com/datamodel"
+  entity="ArgoFlagnew"
+  supertype="Argo_Insurance"
+  final="true">
+  <column
+    name="Name"
+    nullok="true"
+    type="shorttext"/>
+  <column
+    name="PubID"
+    nullok="true"
+    type="integer"/>
+  <column
+    name="CreatedON"
+    nullok="true"
+    type="dateonly"/>
+  <column
+    name="AUser"
+    nullok="true"
+    type="text"/>
+</subtype>

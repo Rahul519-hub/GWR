@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <DetailViewPanel
+    id="Argo_InsuranceMODEDV"
+    mode="Doctor">
+    <InputColumn>
+      <TextInput
+        id="Doctor"
+        label="&quot;Doctor&quot;"
+        value="&quot;Doctor&quot;"/>
+    </InputColumn>
+  </DetailViewPanel>
+</PCF>

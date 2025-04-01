@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<import>
+  <CoverageLookup public-id="z4gheeba9tej0b71ir9ar633cnb">
+    <Availability>Available</Availability>
+    <CoveragePatternCode>zh5h6g18f8srl14n0dpdjn32icb</CoveragePatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GLLine</PolicyLinePatternCode>
+    <StartEffectiveDate>2025-02-03 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CoverageLookup>
+  <CovTermLookup public-id="zoij2hhdsavmd84ntqh198vs0vb">
+    <Availability>Available</Availability>
+    <CovTermPatternCode>z4jh8rd9kkn7l48hc46qfavc9nb</CovTermPatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GLLine</PolicyLinePatternCode>
+    <StartEffectiveDate>2025-02-03 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zeljkvi453p6b8mcp2jk8rb0up9">
+    <Availability>Available</Availability>
+    <CovTermPatternCode>zi2iodp4ftr8q6i5mvmcm16b988</CovTermPatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GLLine</PolicyLinePatternCode>
+    <StartEffectiveDate>2025-02-03 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermLookup>
+  <CovTermOptLookup public-id="zvri40mk9r85ed5uoeucturj3v9">
+    <Availability>Available</Availability>
+    <CovTermOptCode>z2bgkk3eon401dasaq4olfctgta</CovTermOptCode>
+    <CovTermPatternCode>zi2iodp4ftr8q6i5mvmcm16b988</CovTermPatternCode>
+    <Currency/>
+    <EndEffectiveDate/>
+    <JobType/>
+    <StartEffectiveDate>2025-02-03 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zk4h81vbe7pkudhj8hbvgbf30h9">
+    <Availability>Available</Availability>
+    <CovTermOptCode>zvbjoge5c1jor2813mjodbsbo89</CovTermOptCode>
+    <CovTermPatternCode>zi2iodp4ftr8q6i5mvmcm16b988</CovTermPatternCode>
+    <Currency/>
+    <EndEffectiveDate/>
+    <JobType/>
+    <StartEffectiveDate>2025-02-03 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z5kh6kmkivcvf0t7of9ka52np1b">
+    <Availability>Available</Availability>
+    <CovTermOptCode>z7mi6cke3if9e57m9bfbgjjsraa</CovTermOptCode>
+    <CovTermPatternCode>zi2iodp4ftr8q6i5mvmcm16b988</CovTermPatternCode>
+    <Currency/>
+    <EndEffectiveDate/>
+    <JobType/>
+    <StartEffectiveDate>2025-02-03 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zufhac9lu8uc0emp01m772eikf8">
+    <Availability>Available</Availability>
+    <CovTermOptCode>z1mg8cfnh3anh154toqis87l4i9</CovTermOptCode>
+    <CovTermPatternCode>zi2iodp4ftr8q6i5mvmcm16b988</CovTermPatternCode>
+    <Currency/>
+    <EndEffectiveDate/>
+    <JobType/>
+    <StartEffectiveDate>2025-02-03 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zabh49uedmgnr8ktkog28to0199">
+    <Availability>Available</Availability>
+    <CovTermOptCode>znli42aq3430i90akfrj45s0rs9</CovTermOptCode>
+    <CovTermPatternCode>zi2iodp4ftr8q6i5mvmcm16b988</CovTermPatternCode>
+    <Currency/>
+    <EndEffectiveDate/>
+    <JobType/>
+    <StartEffectiveDate>2025-02-03 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermOptLookup>
+</import>

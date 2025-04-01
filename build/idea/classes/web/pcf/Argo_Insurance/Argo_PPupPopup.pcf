@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <Popup
+    canEdit="true "
+    id="Argo_PPupPopup"
+    startInEditMode="true "
+    title="&quot;Argo PPupPopup&quot;">
+    <LocationEntryPoint
+      signature="Argo_PPupPopup(Argo_Insurance:Argo_Insurance)"/>
+    <Variable
+      name="Argo_Insurance"
+      type="Argo_Insurance"/>
+    <Screen>
+      <Toolbar>
+        <EditButtons/>
+      </Toolbar>
+      <DetailViewPanel>
+        <InputColumn>
+          <TextInput
+            action="Argo_Insurance_empWorksheet.goInWorkspace(Argo_Insurance)"
+            editable="false "
+            id="Lastname"
+            label="DisplayKey.get(&quot;LastName&quot;)"
+            value="Argo_Insurance.LastName"/>
+        </InputColumn>
+      </DetailViewPanel>
+    </Screen>
+  </Popup>
+</PCF>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <Page
+    id="Argo_Insurancepge"
+    title="&quot;Argo Insurance&quot;">
+    <Variable
+      name="String"
+      type="String"/>
+    <Variable
+      name="LoginForm"
+      type="gw.api.util.LoginForm"/>
+    <ScreenRef
+      def="ARGOScreen(LoginForm)"/>
+  </Page>
+</PCF>

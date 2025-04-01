@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <PanelSet
+    id="Argo_DiverPanelSet">
+    <Require
+      name="Policydriver"
+      type="PolicyDriver"/>
+    <Require
+      name="Paline"
+      type="entity.PersonalAutoLine"/>
+    <Require
+      name="OpenEdit"
+      type="Boolean"/>
+    <Variable
+      name="DriverCellphone"
+      recalculateOnRefresh="true"
+      type="Boolean"/>
+    <DetailViewPanel>
+      <InputColumn>
+        <PreFormattedTextInput
+          align="center"
+          boldLabel="true"
+          id="DriverValueNotifcation"
+          value="&quot;This is Argo Insurance Company Driver Details&quot;"/>
+      </InputColumn>
+    </DetailViewPanel>
+    <DetailViewPanel>
+      <InputColumn>
+        <DateTimeInput
+          editable="true "
+          id="DriverScoreValues"
+          label="&quot;Driver Score Values&quot;"
+          value="Policydriver.Argo_DiverValues.EffectiveDate"/>
+        <BooleanRadioInput
+          editable="true "
+          id="DriverOverride"
+          label="&quot;Driver Override&quot;"
+          value="Policydriver.Argo_DiverValues.DriverOverride_T"/>
+        <TextInput
+          boldLabel="true"
+          editable="true "
+          id="UsedcarMileage"
+          label="&quot;Car Mileage&quot;"
+          value="Policydriver.Argo_DiverValues.UsedCarMileage"
+          valueType="java.lang.Integer"/>
+        <TextInput
+          boldLabel="true"
+          editable="true "
+          id="DriverCellPhone"
+          label="&quot;Driver CellPhone&quot;"
+          value="Policydriver.Argo_DiverValues.DriverCellPhone"/>
+      </InputColumn>
+      <InputColumn>
+        <DateInput
+          dateFormat="short"
+          editable="true"
+          id="DOJ"
+          label="&quot;Date of Joining Driver&quot;"
+          labelAbove="true "
+          value="Policydriver.Argo_DiverValues.DriverStartDate"/>
+        <BooleanRadioInput
+          boldLabel="true"
+          editable="true "
+          falseLabel="&quot;NO&quot;"
+          id="DriverInformation"
+          label="DisplayKey.get(&quot;DriverInformation&quot;)"
+          trueLabel="&quot;Yes&quot;"
+          value="Policydriver.DriverInformation">
+          <PostOnChange
+            onChange="Policydriver.DriverInformationPostOnChange()"/>
+        </BooleanRadioInput>
+      </InputColumn>
+    </DetailViewPanel>
+  </PanelSet>
+</PCF>

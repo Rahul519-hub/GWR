@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <InputSet
+    id="Arm_Insurance_InputSet">
+    <Require
+      name="PolicyPeriod"
+      type="PolicyPeriod"/>
+    <TextInput
+      editable="true "
+      id="FirstName"
+      label="DisplayKey.get(&quot;FirstName&quot;)"
+      value="PolicyPeriod.Arm_Insurance.FirstName"/>
+    <TextInput
+      editable="true "
+      id="LastName"
+      label="DisplayKey.get(&quot;LastName&quot;)"
+      value="PolicyPeriod.Arm_Insurance.LastName"/>
+    <TextInput
+      action="Arm_InsurancePopup.push(PolicyPeriod.Arm_Insurance)"
+      id="FullName"
+      label="&quot;Full Name&quot;"
+      value="&quot;Rahul&quot;"/>
+    <DateInput
+      editable="true "
+      id="DOB"
+      label="DisplayKey.get(&quot;DOB&quot;)"
+      value="PolicyPeriod.Arm_Insurance.DOB"/>
+    <TextInput
+      editable="true "
+      id="Age"
+      label="DisplayKey.get(&quot;Age&quot;)"
+      value="PolicyPeriod.Arm_Insurance.Age"
+      valueType="java.lang.Integer"/>
+    <TypeKeyInput
+      editable="true "
+      id="Gender"
+      label="&quot;Gender&quot;"
+      value="PolicyPeriod.Arm_Insurance.Gender"
+      valueType="typekey.GenderType"/>
+    <TypeKeyInput
+      editable="true "
+      id="Country"
+      label="DisplayKey.get(&quot;Country&quot;)"
+      value="PolicyPeriod.Arm_Insurance.Country"
+      valueType="typekey.Country"/>
+    <TypeKeyInput
+      editable="true "
+      id="Phone"
+      label="DisplayKey.get(&quot;Phone&quot;)"
+      value="PolicyPeriod.Arm_Insurance.Phone"
+      valueType="typekey.PhoneCountryCode"/>
+    <TextInput
+      editable="true "
+      id="SSN"
+      label="DisplayKey.get(&quot;SSN&quot;)"
+      value="PolicyPeriod.Arm_Insurance.SSN"/>
+    <TextInput
+      editable="true "
+      id="UserName"
+      label="DisplayKey.get(&quot;UserName&quot;)"
+      value="PolicyPeriod.Arm_Insurance.UserName"/>
+    <BooleanRadioInput
+      editable="true"
+      falseLabel="&quot;Non-Existed&quot;"
+      id="UserValue"
+      label="&quot;User Value&quot;"
+      trueLabel="&quot;Existed&quot;"
+      value="PolicyPeriod.AssignedRisk">
+      <PostOnChange/>
+    </BooleanRadioInput>
+    <TextInput
+      editable="true "
+      id="AssignedRisk"
+      label="DisplayKey.get(&quot;UserValue&quot;)"
+      value="PolicyPeriod.Arm_Insurance.UserValue"
+      visible="PolicyPeriod.AssignedRisk == true"/>
+    <InputDivider/>
+    <TextInput
+      editable="false "
+      id="PassPortNumber"
+      label="DisplayKey.get(&quot;PassportNumber&quot;)"
+      value="PolicyPeriod.Arm_Insurance.PassPortNumber"/>
+    <TextInput
+      editable="true "
+      id="Email"
+      label="DisplayKey.get(&quot;Email&quot;)"
+      value="PolicyPeriod.Arm_Insurance.Email"/>
+    <TypeKeyInput
+      editable="true "
+      id="CarName"
+      label="&quot;Car Name&quot;"
+      value="PolicyPeriod.Arm_Insurance.CarName"
+      valueType="typekey.Arm_Insurance_Carname"/>
+    <TypeKeyInput
+      editable="true "
+      id="CarModel"
+      label="&quot;Car Model&quot;"
+      value="PolicyPeriod.Arm_Insurance.CarModel"
+      valueType="typekey.Arm_InsuranceCar_Model"/>
+  </InputSet>
+</PCF>

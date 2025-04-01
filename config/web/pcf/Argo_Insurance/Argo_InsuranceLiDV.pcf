@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <DetailViewPanel
+    id="Argo_InsuranceLiDV">
+    <Require
+      name="ArgoInsu"
+      type="entity.ArgoInsurancePlans"/>
+    <InputColumn>
+      <TextInput
+        align="center"
+        editable="true "
+        id="Licensenumber"
+        label="&quot;License Number&quot;"
+        value="ArgoInsu.Licensenumber"/>
+    </InputColumn>
+    <InputColumn>
+      <TextInput
+        align="center"
+        boldLabel="true"
+        boldValue="true"
+        editable="true"
+        id="Licensestate"
+        label="&quot;License State&quot;"
+        value="ArgoInsu.Licensestate"/>
+    </InputColumn>
+  </DetailViewPanel>
+</PCF>

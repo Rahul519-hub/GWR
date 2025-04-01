@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <InputSet
+    id="ArgoInsuranceInputSet">
+    <Require
+      name="PolicyPeriod"
+      type="PolicyPeriod"/>
+    <TextInput
+      editable="true "
+      id="FirstName"
+      label="DisplayKey.get(&quot;FirstName&quot;)"
+      value="PolicyPeriod.Argo_Insurance.Firstname">
+      <PostOnChange/>
+    </TextInput>
+    <TextInput
+      editable="true "
+      id="LastName"
+      label="DisplayKey.get(&quot;LastName&quot;)"
+      value="PolicyPeriod.Argo_Insurance.LastName"/>
+    <TextInput
+      editable="true"
+      id="FullName"
+      label="DisplayKey.get(&quot;FullName&quot;)"
+      value="PolicyPeriod.Argo_Insurance.FullName"></TextInput>
+    <TextInput
+      id="Name"
+      label="&quot;Name&quot;"
+      value="PolicyPeriod.Argo_Insurance.DisplayName">
+      <PostOnChange/>
+    </TextInput>
+    <TextInput
+      action="Argo_PPupPopup.push(PolicyPeriod.Argo_Insurance)"
+      editable="false "
+      id="Addname"
+      label="&quot;Add Name&quot;"
+      value="PolicyPeriod.Argo_Insurance.LastName"/>
+    <TextInput
+      editable="true"
+      id="Age"
+      label="&quot;Age&quot;"
+      value="PolicyPeriod.Argo_Insurance.Age"
+      valueType="java.lang.Integer">
+      <PostOnChange/>
+    </TextInput>
+    <DateInput
+      boldLabel="true"
+      editable="true "
+      id="DOB"
+      label="DisplayKey.get(&quot;DOB&quot;)"
+      value="PolicyPeriod.Argo_Insurance.DOB"/>
+    <TypeKeyInput
+      editable="true "
+      id="Gender"
+      label="DisplayKey.get(&quot;Gender&quot;)"
+      value="PolicyPeriod.Argo_Insurance.Gender"
+      valueType="typekey.GenderType">
+      <PostOnChange/>
+    </TypeKeyInput>
+    <TextInput
+      editable="true "
+      id="phone"
+      label="DisplayKey.get(&quot;Phone&quot;)"
+      value="PolicyPeriod.Argo_Insurance.Phone"/>
+    <TextInput
+      editable="true "
+      id="SSN"
+      label="DisplayKey.get(&quot;SSN&quot;)"
+      value="PolicyPeriod.Argo_Insurance.SSN"/>
+    <TextInput
+      editable="true "
+      id="PolicyNumber"
+      label="DisplayKey.get(&quot;PolicyNumber&quot;)"
+      value="PolicyPeriod.Argo_Insurance.PolicyNumber"/>
+    <DateInput
+      editable="true "
+      id="LicenseNumber"
+      label="DisplayKey.get(&quot;LicenseDate&quot;)"
+      value="PolicyPeriod.Argo_Insurance.LicenseDate"/>
+    <TypeKeyInput
+      editable="true "
+      id="ROLE"
+      label="DisplayKey.get(&quot;ROLE&quot;)"
+      value="PolicyPeriod.Argo_Insurance.Argo_Occup"
+      valueType="typekey.Argo_Occup"></TypeKeyInput>
+    <TypeKeyInput
+      editable="true "
+      id="JOB"
+      label="DisplayKey.get(&quot;JOB&quot;)"
+      value="PolicyPeriod.Argo_Insurance.Argo_Desig"
+      valueType="typekey.Argo_Desig"/>
+    <BooleanRadioInput
+      align="right"
+      boldLabel="true"
+      editable="true "
+      falseLabel="&quot;NO&quot;"
+      id="AssignedRisk"
+      label="DisplayKey.get(&quot;PassportNumber&quot;)"
+      trueLabel="&quot;Yes&quot;"
+      value="PolicyPeriod.AssignedRisk">
+      <PostOnChange/>
+    </BooleanRadioInput>
+    <TextInput
+      editable="true "
+      helpText="&quot;Text and Integers&quot;"
+      id="PassportNumber"
+      label="DisplayKey.get(&quot;PassportNumber&quot;)"
+      value="PolicyPeriod.Argo_Insurance.Passportnumber"
+      visible="PolicyPeriod.AssignedRisk == true ">
+      <PostOnChange/>
+    </TextInput>
+    <InputDivider/>
+    <TypeKeyInput
+      boldLabel="true"
+      editable="true "
+      id="Country"
+      label="DisplayKey.get(&quot;Country&quot;)"
+      value="PolicyPeriod.Argo_Insurance.Country"
+      valueType="typekey.Country"/>
+    <TypeKeyInput
+      editable="true "
+      id="PhoneCountryCode"
+      label="DisplayKey.get(&quot;PhoneCountryCode&quot;)"
+      value="PolicyPeriod.Argo_Insurance.PhoneCountryCode"
+      valueType="typekey.PhoneCountryCode"/>
+  </InputSet>
+</PCF>

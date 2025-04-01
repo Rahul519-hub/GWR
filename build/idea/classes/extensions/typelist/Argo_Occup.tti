@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<typelist xmlns="http://guidewire.com/typelists" name="Argo_Occup" desc="">
+  <typecode
+    code="Actor"
+    name="Actor"
+    priority="1"></typecode>
+  <typecode
+    code="Doctor"
+    name="Doctor"
+    priority="2"/>
+  <typecode
+    code="School"
+    name="School"
+    priority="3"/>
+  <typecode
+    code="Sportsmen"
+    name="Sportsmen"
+    priority="4"/>
+</typelist>

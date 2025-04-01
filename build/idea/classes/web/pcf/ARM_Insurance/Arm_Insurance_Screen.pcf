@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <Screen
+    id="Arm_Insurance_Screen">
+    <Require
+      name="PolicyPeriod"
+      type="PolicyPeriod"/>
+    <Toolbar>
+      <EditButtons/>
+      <WizardButtons/>
+    </Toolbar>
+    <CardViewPanel>
+      <Card
+        id="USER"
+        title="&quot;User Details&quot;">
+        <PanelRef
+          def="Arm_InsuranceDV(PolicyPeriod)"/>
+      </Card>
+      <Card
+        id="PolicyPlans"
+        title="&quot;Policy Plans&quot;"/>
+      <Card
+        id="MODES"
+        title="&quot;MODES&quot;"/>
+    </CardViewPanel>
+  </Screen>
+</PCF>

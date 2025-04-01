@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  entity="Argo_Employee_Worksheet"
+  desc="Employee worksheets and details"
+  table="argo_employee_worksheet"
+  type="retireable">
+  <column
+    name="EmployeeID"
+    nullok="true"
+    type="text"/>
+  <column
+    name="InsuranceAgentName"
+    nullok="true"
+    type="text"/>
+  <column
+    name="AgentCode"
+    nullok="true"
+    type="integer"/>
+</entity>

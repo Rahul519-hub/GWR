@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <ListViewPanel
+    id="Arm_InsuranceLV">
+    <Require
+      name="PolicyPeriod"
+      type="PolicyPeriod"/>
+    <ExposeIterator
+      valueType="entity.Arm_InsurancePlans"
+      widget="Arm_InsuranceLV"/>
+    <RowIterator
+      editable="true "
+      elementName="Arm_Insurance"
+      value="PolicyPeriod.Arm_Insurance.Arm_InsurancePlans"
+      valueType="entity.Arm_InsurancePlans[]">
+      <Row>
+        <TextCell
+          editable="true "
+          id="RegularPlan"
+          label="DisplayKey.get(&quot;RegularPlan&quot;)"
+          value="Arm_Insurance.RegularPlan"/>
+        <TextCell
+          editable="true "
+          id="ExecutivePlan"
+          label="DisplayKey.get(&quot;ExecutivePlan&quot;)"
+          value="Arm_Insurance.ExecutivePlan"/>
+        <TextCell
+          editable="true "
+          id="SilverPlan"
+          label="DisplayKey.get(&quot;SilverPlan&quot;)"
+          value="Arm_Insurance.SilverPlan"/>
+        <TextCell
+          editable="true "
+          id="GoldPlan"
+          label="DisplayKey.get(&quot;GoldPlan&quot;)"
+          value="Arm_Insurance.GoldPlan"/>
+        <TextCell
+          editable="true "
+          id="DiamondPlan"
+          label="DisplayKey.get(&quot;DiamondPlan&quot;)"
+          value="Arm_Insurance.DiamondPlan"/>
+        <TextCell
+          editable="true "
+          id="PlatinumPlan"
+          label="DisplayKey.get(&quot;PlatinumPlan&quot;)"
+          value="Arm_Insurance.PlatinumPlan"/>
+      </Row>
+    </RowIterator>
+  </ListViewPanel>
+</PCF>

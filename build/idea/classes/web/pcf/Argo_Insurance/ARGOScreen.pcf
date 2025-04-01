@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <Screen
+    id="ARGOScreen">
+    <Require
+      name="LoginForm"
+      type="gw.api.util.LoginForm"/>
+    <CardViewPanel>
+      <Card
+        id="ARG"
+        title="&quot;ARG&quot;">
+        <DetailViewPanel>
+          <InputColumn>
+            <TextInput
+              id="Filter"
+              label="&quot;Filter&quot;"
+              value="&quot;Liters&quot;"/>
+            <TextInput
+              id="North"
+              label="&quot;North&quot;"
+              value="&quot;North&quot;"/>
+          </InputColumn>
+        </DetailViewPanel>
+      </Card>
+      <Card
+        id="RG"
+        title="&quot;RG&quot;">
+        <PanelRef
+          def="ArgLogindetailsDV(LoginForm)"/>
+      </Card>
+    </CardViewPanel>
+  </Screen>
+</PCF>

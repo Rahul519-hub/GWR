@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <ListViewPanel
+    id="Argo_InsuranceLV">
+    <Require
+      name="PolicyPeriod"
+      type="PolicyPeriod"/>
+    <ExposeIterator
+      valueType="entity.ArgoInsurancePlans"
+      widget="Argo_InsuranceLV"/>
+    <RowIterator
+      editable="true "
+      elementName="ArgoInsu"
+      toAdd="PolicyPeriod.Argo_Insurance.addToArgoInsurancePlans(ArgoInsu)"
+      toRemove="PolicyPeriod.Argo_Insurance.removeFromArgoInsurancePlans(ArgoInsu)"
+      value="PolicyPeriod.Argo_Insurance.ArgoInsurancePlans"
+      valueType="entity.ArgoInsurancePlans[]">
+      <Row>
+        <TextCell
+          align="center"
+          bold="true"
+          editable="true "
+          iconType="pngFileName"
+          id="Basic"
+          label="DisplayKey.get(&quot;Basic&quot;)"
+          value="ArgoInsu.Basic"/>
+        <TextCell
+          action="Argo_PPupPopup.push(PolicyPeriod.Argo_Insurance)"
+          align="center"
+          bold="true"
+          editable="true"
+          id="Standard"
+          label="&quot;Standard&quot;"
+          value="ArgoInsu.Standard"/>
+        <TextCell
+          align="center"
+          editable="true"
+          id="Advance"
+          label="&quot;Advance&quot;"
+          value="ArgoInsu.Advance"/>
+      </Row>
+    </RowIterator>
+  </ListViewPanel>
+</PCF>

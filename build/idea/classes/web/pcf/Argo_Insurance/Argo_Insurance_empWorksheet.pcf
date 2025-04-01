@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <Worksheet
+    canEdit="true"
+    canVisit="true"
+    id="Argo_Insurance_empWorksheet"
+    tabLabel="&quot;Argo Insurance Employee&quot;"
+    title="&quot;Argo IN Emp&quot;">
+    <LocationEntryPoint
+      signature="Argo_Insurance_empWorksheet(Argo_Insurance:Argo_Insurance)"/>
+    <Scope
+      location="Argo_PPupPopup(Argo_Insurance)"/>
+    <Variable
+      name="Argo_Insurance"
+      type="Argo_Insurance"/>
+    <Screen>
+      <Toolbar>
+        <EditButtons/>
+      </Toolbar>
+      <DetailViewPanel>
+        <InputColumn>
+          <TextInput
+            editable="true "
+            id="EmployeeID"
+            label="&quot;Employee ID&quot;"
+            value="Argo_Insurance.Argo_Employee_Worksheet.EmployeeID"/>
+          <TextInput
+            editable="true "
+            id="InsuranceAgentName"
+            label="&quot;Insurance Agent Name&quot;"
+            value="Argo_Insurance.Argo_Employee_Worksheet.InsuranceAgentName"/>
+          <TextInput
+            editable="true "
+            id="AgentCode"
+            label="&quot;Agent Code&quot;"
+            value="Argo_Insurance.Argo_Employee_Worksheet.AgentCode"
+            valueType="java.lang.Integer"/>
+        </InputColumn>
+      </DetailViewPanel>
+    </Screen>
+  </Worksheet>
+</PCF>
